@@ -1,0 +1,41 @@
+{
+  "name": "elesis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node bot.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisu01/elesis.git"
+  },
+  "keywords": [],
+  "author": "Irisu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irisu01/elesis/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "edge-js": "^19.3.0",
+    "lodash": "^4.17.21",
+    "sharp": "^0.31.3",
+    "tesseract.js": "github:naptha/tesseract.js"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.18",
+    "@types/sharp": "^0.31.1",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4"
+  }
+}
